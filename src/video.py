@@ -1,7 +1,7 @@
 from src.channel import Channel
 
 
-class Video(Channel):
+class Video:
     """Класс для видео из ютуба"""
 
     def __init__(self, id_video):
