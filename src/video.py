@@ -14,7 +14,7 @@ class Video:
         # название видео
         self.video_title = video_response['items'][0]['snippet']['title']
         # ссылка на видео
-        self.url_video = f"https://www.youtube.com/watch?v={self.id_video}"
+        self.url_video = f"https://youtu.be/{self.id_video}"
         # количество просмотров
         self.view_count = video_response['items'][0]['statistics']['viewCount']
         # количество лайков
